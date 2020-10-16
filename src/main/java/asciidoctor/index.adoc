@@ -1,0 +1,29 @@
+
+= URL Shortener
+:doctype: book
+:icons: font
+:source-highlighter: highlights
+
+A RESTful based microservice that shortens given a long url using CLEAN URI.
+
+SHORTEN A URL
+
+One showing how to make a request using cURL:
+
+include::{snippets}/api/beer_get/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/v1/beer_get/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/v1/beer_get/http-response.adoc[]
+
+
+
+
+
+
+
+
