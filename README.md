@@ -41,3 +41,7 @@ To run:
 $ mvn clean install
 
 $ docker-compose up
+
+Load Test:
+
+``` ab -T application/json -c 10 -n 1000 -p post-data.txt -m POST http://localhost:8080/ ```
