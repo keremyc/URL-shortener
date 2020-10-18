@@ -8,9 +8,8 @@ SHORTEN A URL
 
 Request Fields:
 
-Path    Type       Description
+``` There is only one request field, url, and it must be string and also it must not be null. ```
 
-url   String   The long URL
 
 One showing how to make a request using cURL:
 
