@@ -10,7 +10,7 @@ Request Fields:
 
   Path    Type       Description
   ------- ---------- --------------
-  `url`   `String`   The long URL
+  url   String   The long URL
 
 One showing how to make a request using cURL:
 
