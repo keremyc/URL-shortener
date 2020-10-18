@@ -24,11 +24,6 @@ And one showing the HTTP response:
 
 include::{snippets}/v1/shorten/http-response.adoc[]
 
-To run :
-
-$ mvn clean install
-
-$ docker-compose up
 
 
 
