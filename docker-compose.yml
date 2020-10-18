@@ -25,17 +25,6 @@ services:
     networks:
       - main
 
-  grafana:
-    image: grafana/grafana
-    depends_on:
-      - prometheus
-    ports:
-    - "3000:3000"
-    networks:
-      - main
-    volumes:
-      - ./grafana:/var/lib/grafana
-
 networks:
   main:
     driver: bridge
